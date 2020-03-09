@@ -131,7 +131,6 @@ const IndexPage = () => (
             <div className="resume-content">
               <h3 className="mb-0">Université de Dijon</h3>
               <div className="subheading mb-3">Licence professionnelle DDIM (alternance)</div>
-              <div>Design et Developpement de l'Internet Mobile / Developpeur Android a Veolia</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Septembre 2019 - Septembre 2020</span>
@@ -169,7 +168,7 @@ const IndexPage = () => (
         <div className="w-100">
           <h2 className="mb-5">Compétences informatiques</h2>
 
-          <div className="subheading mb-3">Languages informatiques</div>
+          <div className="subheading mb-3">Principaux langages et outils informatiques</div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
               <i className="fab fa-html5"></i>
@@ -202,7 +201,7 @@ const IndexPage = () => (
               <i className="fab fa-php"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
+              <i className="fab fa-wordpress"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-adobe"></i>
@@ -213,27 +212,27 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-square"></i>
-              C#, C++, C
+                <strong>Autres langages</strong> : C#, C++, C, Pascal.
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-              Adobe Premiere Pro, Photoshop, Lightroom, After Effect, XD, Illustrator
+                <strong>Maitrise de differents IDE</strong> : IDEAJ, WebStorm, PyCharm, VSCode, DataGrip, Visual Studio.
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-              Developpement Ionic, React Native
+                <strong>Maitrise de differents logiciels Adobe</strong> : Premiere Pro, Photoshop, Lightroom, After Effect, XD, Illustrator.
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-              Git, Trello
+              Developpement mobile <strong>natif</strong> et <strong>hybride</strong> (Ionic, React Native).
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-              Suite Office (Word, PowerPoint, Excel, Access)
+                <strong>Utilisation des outils d'équipe</strong> : Git, Trello.
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-              Jetbrains IDE (IDEAJ, WebStorm, PyCharm)
+                <strong>Maitrise de la suite Office</strong> : Word, PowerPoint, Excel, Access...
             </li>
           </ul>
         </div>
