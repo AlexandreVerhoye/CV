@@ -68,7 +68,7 @@ const IndexPage = () => (
                 Après mon DUT informatique, j'ai eu l'opportunité d'effectuer ma licence professionnelle DDIM en alternance a Veolia, afin de continuer de developper le projet Demat'OI.
               </p>
 
-              <div className="shadow-lg p-3 mb-5 bg-white rounded">
+              <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
                 <div className="subheading mb-3">Projets réalisés</div>
                 <ul className="fa-ul mb-0">
                   <li>
@@ -77,7 +77,7 @@ const IndexPage = () => (
                   </li>
                   <li>
                     <i className="fa-li fa fa-square"></i>
-                    <b>Demat'Usager</b> : Application Android permettant de dematerialiser l'enquète de dotation
+                    <b>Demat'Usager</b> : Application Android permettant de dematerialiser l'enquète de dotation des usagers.
                   </li>
                 </ul>
               </div>
@@ -96,15 +96,15 @@ const IndexPage = () => (
               <div className="subheading mb-3">Veolia / Aubervilliers</div>
 
               <p>
-                Afin de valider mon DUT informatique, j'ai eu l'opportunité d'effectuer mon stage a Veolia (Aubervilliers) en tant que developpeur Android.
+                Afin de valider mon DUT informatique, j'ai pu effectuer mon stage à Veolia (Aubervilliers). On m'as donné la mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
               </p>
 
-              <div className="shadow-lg p-3 mb-5 bg-white rounded">
+              <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
                 <div className="subheading mb-3">Projets réalisés</div>
-                <ul className="fa-ul mb-0">
+                <ul className="fa-ul mb-0 ">
                   <li>
                     <i className="fa-li fa fa-square"></i>
-                    <b>Demat'OI</b> : Demarrage du développement du projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bac a déchets, a destination des operateurs Veolia.
+                    <b>Demat'OI</b> : Projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bacs a déchets, à destination des intervenants Veolia.
                   </li>
                 </ul>
               </div>
@@ -212,23 +212,23 @@ const IndexPage = () => (
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-square"></i>
-                <strong>Autres langages</strong> : C#, C++, C, Pascal.
+                <strong>Autres langages</strong> : C#, C++, C, Pascal
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-                <strong>Maitrise de differents IDE</strong> : IDEAJ, WebStorm, PyCharm, VSCode, DataGrip, Visual Studio.
+                <strong>Maitrise de differents IDE</strong> : IDEAJ, WebStorm, PyCharm, VSCode, DataGrip, Visual Studio
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-                <strong>Maitrise de differents logiciels Adobe</strong> : Premiere Pro, Photoshop, Lightroom, After Effect, XD, Illustrator.
+                <strong>Maitrise de differents logiciels Adobe</strong> : Premiere Pro, Photoshop, Lightroom, After Effect, XD, Illustrator
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-              Developpement mobile <strong>natif</strong> et <strong>hybride</strong> (Ionic, React Native).
+              <strong>Developpement mobile</strong> : Ionic, React Native, Android (Java/Kotlin), iOS (Swift)
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
-                <strong>Utilisation des outils d'équipe</strong> : Git, Trello.
+                <strong>Utilisation des outils d'équipes</strong> : Git, Trello
             </li>
             <li>
               <i className="fa-li fa fa-square"></i>
