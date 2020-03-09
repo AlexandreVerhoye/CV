@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 import Scroll from '../components/Scroll';
-
+import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 
 const IndexPage = () => (
   <Layout>
@@ -30,7 +30,7 @@ const IndexPage = () => (
           </p>
           <Scroll type="id" element="autres">
             <a className="btn btn-dark mb-5" href="#autre">
-              <i className="fa fa-plus"></i> Plus d'informations
+              <i className="fa fa-plus"></i> Lire plus
             </a>
           </Scroll>
 
@@ -51,70 +51,86 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-3 p-lg-5 d-flex justify-items-center"
         id="experience"
       >
         <div className="w-100">
           <h2 className="mb-5">Experiences professionnelles</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
+          <Timeline lineColor={'#ddd'}>
+            <TimelineItem
+              key="001"
+              dateText="09/2019 – PRESENT"
+              style={{ color: 'black' }}
+              dateInnerStyle={{ background: '#343A40', color: 'white' }}
+              bodyContainerStyle={{
+                padding: '20px',
+                borderRadius: '8px',
+                boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+              }}
+              >
+              <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div className="resume-content">
 
-              <h3 className="mb-0">Developpeur full-stack</h3>
+                <h3 className="mb-0">Developpeur full-stack</h3>
 
-              <div className="subheading mb-3">Veolia / Aubervilliers</div>
+                <div className="subheading mb-3">Veolia / Aubervilliers</div>
 
-              <p>
-                Après mon DUT informatique, j'ai eu l'opportunité d'effectuer ma licence professionnelle DDIM en alternance a Veolia, afin de continuer de developper le projet Demat'OI.
-              </p>
+                <p>
+                  Après mon DUT informatique, j'ai eu l'opportunité d'effectuer ma licence professionnelle DDIM en alternance a Veolia, afin de continuer de developper le projet Demat'OI.
+                </p>
 
-              <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
-                <div className="subheading mb-3">Projets réalisés</div>
-                <ul className="fa-ul mb-0">
-                  <li>
-                    <i className="fa-li fa fa-square"></i>
-                    <b>Demat'OI</b> : Suite du developpement de l'application Android et maintenance.
-                  </li>
-                  <li>
-                    <i className="fa-li fa fa-square"></i>
-                    <b>Demat'Usager</b> : Application Android permettant de dematerialiser l'enquète de dotation des usagers.
-                  </li>
-                </ul>
+                <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
+                  <div className="subheading mb-3">Projets réalisés :</div>
+                  <ul className="fa-ul mb-0 p-3">
+                    <li className="mb-3">
+                      <i className="fa-li fa fa-square"></i>
+                      <b>Demat'OI</b> : Suite du developpement de l'application Android et maintenance.
+                    </li>
+                    <li>
+                      <i className="fa-li fa fa-square"></i>
+                      <b>Demat'Usager</b> : Application Android permettant de dematerialiser l'enquète de dotation des usagers.
+                    </li>
+                  </ul>
+                </div>
               </div>
-
             </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">Septembre 2019 - Septembre 2020</span>
-            </div>
-          </div>
+          </TimelineItem>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
+            <TimelineItem
+              key="002"
+              dateText="03/2019 – 07/2019"
+              dateInnerStyle={{ background: '#343A40', color: 'white' }}
+              bodyContainerStyle={{
+                padding: '20px',
+                borderRadius: '8px',
+                boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+              }}>
+              <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div className="resume-content">
 
-              <h3 className="mb-0">Developpeur Android</h3>
+                  <h3 className="mb-0">Developpeur Android</h3>
 
-              <div className="subheading mb-3">Veolia / Aubervilliers</div>
+                  <div className="subheading mb-3">Veolia / Aubervilliers</div>
 
-              <p>
-                Afin de valider mon DUT informatique, j'ai pu effectuer mon stage à Veolia (Aubervilliers). On m'as donné la mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
-              </p>
+                  <p>
+                    Afin de valider mon DUT informatique, j'ai pu effectuer mon stage à Veolia (Aubervilliers). On m'as donné la mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
+                  </p>
 
-              <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
-                <div className="subheading mb-3">Projets réalisés</div>
-                <ul className="fa-ul mb-0 ">
-                  <li>
-                    <i className="fa-li fa fa-square"></i>
-                    <b>Demat'OI</b> : Projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bacs a déchets, à destination des intervenants Veolia.
-                  </li>
-                </ul>
+                  <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
+                    <div className="subheading mb-3">Projets réalisés :</div>
+                    <ul className="fa-ul mb-0 p-3">
+                      <li className="">
+                        <i className="fa-li fa fa-square"></i>
+                        <b>Demat'OI</b> : Projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bacs a déchets, à destination des intervenants Veolia.
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
               </div>
-
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">Mars 2019 - Juillet 2019</span>
-            </div>
-          </div>
-
+            </TimelineItem>
+          </Timeline>
         </div>
       </section>
 

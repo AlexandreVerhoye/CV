@@ -21,6 +21,11 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/alexandreverhoye/',
+    },
+    {
+      icon: 'fa-behance',
+      name: 'Behance',
+      url: 'https://www.behance.net/alexvrhe',
     }
   ],
   email: 'alexandreverhoye@gmail.com',
