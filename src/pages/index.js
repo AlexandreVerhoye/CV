@@ -82,7 +82,7 @@ const IndexPage = () => (
 
                 <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
                   <div className="subheading mb-3">Projets réalisés :</div>
-                  <ul className="fa-ul mb-0 p-3">
+                  <ul className="fa-ul mb-0 p-1">
                     <li className="mb-3">
                       <i className="fa-li fa fa-square"></i>
                       <b>Demat'OI</b> : Suite du developpement de l'application Android et maintenance.
@@ -119,7 +119,7 @@ const IndexPage = () => (
 
                   <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
                     <div className="subheading mb-3">Projets réalisés :</div>
-                    <ul className="fa-ul mb-0 p-3">
+                    <ul className="fa-ul mb-0 p-1">
                       <li className="">
                         <i className="fa-li fa fa-square"></i>
                         <b>Demat'OI</b> : Projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bacs a déchets, à destination des intervenants Veolia.
@@ -145,8 +145,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Université de Dijon</h3>
-              <div className="subheading mb-3">Licence professionnelle DDIM (alternance)</div>
+              <h3 className="mb-0">Licence professionnelle DDIM (alternance)</h3>
+              <div className="subheading mb-3">Université de Dijon</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Septembre 2019 - Septembre 2020</span>
@@ -155,8 +155,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Université de Dijon</h3>
-              <div className="subheading mb-3">DUT Informatique</div>
+              <h3 className="mb-0">DUT Informatique</h3>
+              <div className="subheading mb-3">Université de Dijon</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Septembre 2017 - Juillet 2019</span>
@@ -165,8 +165,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Lycée privé Notre Dame de Sion (Evry)</h3>
-              <div className="subheading mb-3">Bac technologique STI2D (Option EE)</div>
+              <h3 className="mb-0">Bac technologique STI2D (Option EE)</h3>
+              <div className="subheading mb-3">Lycée privé Notre Dame de Sion (Evry)</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Septembre 2015 - Juillet 2017</span>
