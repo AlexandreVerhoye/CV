@@ -256,7 +256,7 @@ const IndexPage = () => (
               <div className="badge badge-secondary text-wrap"><i className="fa-li fa fa-car text-primary"></i>Possède le permis B</div>
             </li>
             <li>
-              <div className="badge badge-secondary text-wrap"><i className="fa-li fa fa-map-pin text-primary"></i>Situé sur Villeurbannes</div>
+          <div className="badge badge-secondary text-wrap"><i className="fa-li fa fa-map-pin text-primary"></i>Situé sur {config.habite}</div>
             </li>
           </ul>
         </div>
