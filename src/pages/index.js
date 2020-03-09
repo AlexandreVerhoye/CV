@@ -72,9 +72,9 @@ const IndexPage = () => (
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                 <div className="resume-content">
 
-                <h3 className="mb-0">Developpeur full-stack</h3>
+                <h3 className="mb-0">Developpeur full-stack <span class="badge badge-pill badge-secondary">Alternance</span></h3>
 
-                <div className="subheading mb-3">Veolia / Aubervilliers</div>
+                <div className="subheading">Veolia / Aubervilliers </div>
 
                 <p>
                   Après mon DUT informatique, j'ai eu l'opportunité d'effectuer ma licence professionnelle DDIM en alternance a Veolia, afin de continuer de developper le projet Demat'OI.
@@ -109,12 +109,12 @@ const IndexPage = () => (
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                 <div className="resume-content">
 
-                  <h3 className="mb-0">Developpeur Android</h3>
+                  <h3 className="mb-0">Developpeur Android <span class="badge badge-pill badge-secondary">Stage</span> </h3>
 
-                  <div className="subheading mb-3">Veolia / Aubervilliers</div>
+                  <div className="subheading mb-3">Veolia / Aubervilliers </div>
 
                   <p>
-                    Afin de valider mon DUT informatique, j'ai pu effectuer mon stage à Veolia (Aubervilliers). On m'as donné la mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
+                    Afin de valider mon DUT informatique, j'ai pu effectuer mon stage de fin d'études à Veolia (Aubervilliers). On m'as donné la mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
                   </p>
 
                   <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
@@ -145,8 +145,10 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Licence professionnelle DDIM (alternance)</h3>
-              <div className="subheading mb-3">Université de Dijon</div>
+              <h3 className="mb-0"> Licence professionnelle DDIM (formation en alternance) </h3>
+              <span class="badge badge-pill badge-primary">BAC + 3</span>
+              <div className="subheading mb-3">Université de Dijon / Veolia Aubervilliers</div>
+              <div className="subheading mb-3"></div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">Septembre 2019 - Septembre 2020</span>
@@ -156,6 +158,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">DUT Informatique</h3>
+              <span class="badge badge-pill badge-secondary">BAC + 2</span>
               <div className="subheading mb-3">Université de Dijon</div>
             </div>
             <div className="resume-date text-md-right">
@@ -166,6 +169,7 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Bac technologique STI2D (Option EE)</h3>
+              <span class="badge badge-pill badge-secondary">BAC</span>
               <div className="subheading mb-3">Lycée privé Notre Dame de Sion (Evry)</div>
             </div>
             <div className="resume-date text-md-right">

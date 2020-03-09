@@ -42,6 +42,11 @@ p.lead {
   font-weight: 400;
 }
 
+h1>.badge, h2>.badge, h3>.badge, .subheading>.badge {
+  vertical-align:middle;
+  margin-top: -0.3em;
+}
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
