@@ -60,12 +60,12 @@ const IndexPage = () => (
           <Timeline lineColor={'#ddd'}>
             <TimelineItem
               key="001"
-              dateText="09/2019 – PRESENT"
+              dateText="09/2019 – Actuellement"
               style={{ color: 'black' }}
               dateInnerStyle={{ background: '#343A40', color: 'white' }}
               bodyContainerStyle={{
-                padding: '20px',
-                borderRadius: '8px',
+                padding: '15px',
+                borderRadius: '12px',
                 boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
               }}
               >
@@ -77,7 +77,7 @@ const IndexPage = () => (
                 <div className="subheading">Veolia / Aubervilliers </div>
 
                 <p>
-                  Après mon DUT informatique, j'ai eu l'opportunité d'effectuer ma licence professionnelle DDIM en alternance a Veolia, afin de continuer de developper le projet Demat'OI.
+                  Après mon DUT informatique, j'ai eu l'opportunité d'effectuer ma licence professionnelle DDIM en alternance à Veolia, afin de continuer de developper le projet Demat'OI.
                 </p>
 
                 <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
@@ -85,7 +85,7 @@ const IndexPage = () => (
                   <ul className="fa-ul mb-0 p-1">
                     <li className="mb-3">
                       <i className="fa-li fa fa-square"></i>
-                      <b>Demat'OI</b> : Suite du developpement de l'application Android et maintenance.
+                      <b>Demat'OI</b> : Suite du developpement de l'application Android, maintenance et optimisation en agilité.
                     </li>
                     <li>
                       <i className="fa-li fa fa-square"></i>
@@ -104,7 +104,7 @@ const IndexPage = () => (
               bodyContainerStyle={{
                 padding: '20px',
                 borderRadius: '8px',
-                boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+                boxShadow: '0.5rem 0.5rem 4rem 0 rgba(0, 0, 0, 0.2)',
               }}>
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                 <div className="resume-content">
@@ -114,7 +114,7 @@ const IndexPage = () => (
                   <div className="subheading mb-3">Veolia / Aubervilliers </div>
 
                   <p>
-                    Afin de valider mon DUT informatique, j'ai pu effectuer mon stage de fin d'études à Veolia (Aubervilliers). On m'as donné la mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
+                    Afin de valider mon DUT informatique, j'ai pu effectuer mon stage de fin d'études à Veolia (Aubervilliers). J'ai eu comme mission de debuter le developpement d'une application Android, entamant le projet Demat'OI.
                   </p>
 
                   <div className="shadow-lg p-3 mb-5 bg-dark text-white rounded">
@@ -122,7 +122,7 @@ const IndexPage = () => (
                     <ul className="fa-ul mb-0 p-1">
                       <li className="">
                         <i className="fa-li fa fa-square"></i>
-                        <b>Demat'OI</b> : Projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bacs a déchets, à destination des intervenants Veolia.
+                        <b>Demat'OI</b> : Projet <em>Demat'OI</em> permettant la dematerialisation des ordres d'interventions de bacs à déchets, à destination des intervenants Veolia.
                       </li>
                     </ul>
                   </div>
@@ -266,7 +266,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
         <div className="lead mb-5">
-        <h2 className="mb-5">Autres informations a mon propos</h2>
+        <h2 className="mb-5">Autres informations à mon propos</h2>
           <ul className="fa-ul">
           <li>
               <div className="badge badge-secondary text-wrap"><i className="fa-li fa fa-flag text-primary"></i>Anglais B2</div>
