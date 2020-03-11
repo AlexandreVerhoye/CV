@@ -31,5 +31,5 @@ module.exports = {
   email: 'alexandreverhoye@gmail.com',
   localisation: 'Lyon',
   habite: 'Villeurbanne',
-  etudes: 'Etudiant developpeur full-stack',
+  etudes: 'Etudiant en informatique',
 };
